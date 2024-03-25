@@ -1,0 +1,33 @@
+﻿.word {
+    font-size: 48px;    
+}
+
+    .word>div {
+        border-radius: 50%;
+        display: inline-block;
+        height:80px;
+        width:80px;
+        margin-left:10px;
+    }
+
+.default {
+    background-color: blue;
+    color: yellow;
+}
+
+.exact {
+    background-color: green;
+    color: yellow;
+}
+
+.partial {
+    background-color: yellow;
+    color: black;
+}
+
+.lingo-inp {
+    width:60px;
+    font-size:48px;
+    text-align:center;
+    text-transform:uppercase;
+}

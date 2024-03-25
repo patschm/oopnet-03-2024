@@ -1,0 +1,37 @@
+﻿@model LingoModel
+@{
+    ViewData["Title"] = "Lingo";
+}
+
+<div class="text-center">
+    <h1>Lingo</h1>
+
+    @foreach (var word in Model.Guesses)
+    {
+        <lingo-word word="@word"></lingo-word>
+        <br />
+    }
+    <hr />
+    @if (Model.Finished)
+    {
+       <lingo-word word="@Model.WordToBeGuessed"></lingo-word>
+        <h1>Your IQ is @Model.YourIQ</h1>
+    }
+
+    <hr />
+    @if (!Model.Finished)
+    {
+        <form action="/Home/Index" method="post">
+            @for (int i = 0; i < Model.WordToBeGuessed?.Count; i++)
+            {
+                <input type="text" class="lingo-inp" name="guess" maxlength="1" autocomplete="off" />
+            }
+        <br />
+        <input type="submit" value="Guess" />
+        </form>
+    }
+    else
+    {
+        <a class="btn btn-primary" asp-action="index">Try again?</a>
+    }
+</div>

@@ -15,7 +15,7 @@
 
         static void Main(string[] args)
         {
-            LingoWord wordToBeGuessed = GenerateWord();
+            LingoWord wordToBeGuessed = new LingoWord("kraan");//GenerateWord();
 #if DEBUG
             wordToBeGuessed.Show();
 #endif

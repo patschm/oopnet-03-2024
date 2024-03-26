@@ -68,6 +68,7 @@ namespace ConsoleLingo
             for (int i = 0; i < guess.Count; i++)
             {
                 LingoCharacter guessChar = guess[i]!;
+
                 foreach (LingoCharacter thisChar in this)
                 {
                     if (!guessChar.IsExact() &&

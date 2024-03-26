@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HetCern", "HetCern\HetCern.csproj", "{24F9C46D-04AC-486C-AF01-CA8F8B549982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gravies", "Gravies\Gravies.csproj", "{DE0EF7FB-55BB-4B82-BEE2-0260C81A3460}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24F9C46D-04AC-486C-AF01-CA8F8B549982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F9C46D-04AC-486C-AF01-CA8F8B549982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F9C46D-04AC-486C-AF01-CA8F8B549982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F9C46D-04AC-486C-AF01-CA8F8B549982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE0EF7FB-55BB-4B82-BEE2-0260C81A3460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0EF7FB-55BB-4B82-BEE2-0260C81A3460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0EF7FB-55BB-4B82-BEE2-0260C81A3460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0EF7FB-55BB-4B82-BEE2-0260C81A3460}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6455C14-BCE6-462A-A453-780CFA7365EF}
+	EndGlobalSection
+EndGlobal

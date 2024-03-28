@@ -9,8 +9,11 @@ public partial class CalculatorApp : Form
 
     private void button1_Click(object sender, EventArgs e)
     {
-        int result = 42;
-        UpdateAnswer(result);   
+        if (int.TryParse(txtA.Text, out int a) && int.TryParse(txtB.Text, out int b))
+        {
+            int result = LongAdd(a, b);
+            UpdateAnswer(result);
+        }
     }
 
     private void UpdateAnswer(object result)

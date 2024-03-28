@@ -16,9 +16,9 @@ class Program
         if (result.IsSuccessStatusCode)
         {
             var stream = result.Content.ReadAsStream();
-            var strategy = new XmlSerializerStrategy();
+            //var strategy = new XmlSerializerStrategy();
             //var strategy = new LinqToXmlStrategy();
-            //var strategy = new RegexpStrategy();
+            var strategy = new RegexpStrategy();
 
             foreach (var item in strategy.Process(stream))
             {
